@@ -1,1 +1,1 @@
-cmd_/home/haoranx98/code/my_kernel_module/Module.symvers := sed 's/ko$$/o/' /home/haoranx98/code/my_kernel_module/modules.order | scripts/mod/modpost -m -a   -o /home/haoranx98/code/my_kernel_module/Module.symvers -e -i Module.symvers   -T -
+cmd_/home/haoranx98/code/expriment_3/my_kernel_thread/Module.symvers := sed 's/ko$$/o/' /home/haoranx98/code/expriment_3/my_kernel_thread/modules.order | scripts/mod/modpost -m -a   -o /home/haoranx98/code/expriment_3/my_kernel_thread/Module.symvers -e -i Module.symvers   -T -

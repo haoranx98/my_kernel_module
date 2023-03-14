@@ -1,1 +1,0 @@
-cmd_/home/haoranx98/code/my_kernel_module/lkm_example.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/haoranx98/code/my_kernel_module/lkm_example.ko /home/haoranx98/code/my_kernel_module/lkm_example.o /home/haoranx98/code/my_kernel_module/lkm_example.mod.o;  true

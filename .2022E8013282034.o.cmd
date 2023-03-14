@@ -1,8 +1,8 @@
-cmd_/home/haoranx98/code/my_kernel_module/2022E8013282034.o := gcc -Wp,-MMD,/home/haoranx98/code/my_kernel_module/.2022E8013282034.o.d -nostdinc -isystem /usr/lib/gcc/x86_64-linux-gnu/10.3.1/include -I./arch/x86/include -I./arch/x86/include/generated  -I./include -I./arch/x86/include/uapi -I./arch/x86/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -std=gnu89 -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -fcf-protection=none -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -mtune=generic -mno-red-zone -mcmodel=kernel -Wno-sign-compare -fno-asynchronous-unwind-tables -mindirect-branch=thunk-extern -mindirect-branch-register -mfunction-return=thunk-extern -fno-jump-tables -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wimplicit-fallthrough -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-stack-clash-protection -g -gdwarf-4 -pg -mrecord-mcount -mfentry -DCC_USING_FENTRY -fno-inline-functions-called-once -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wno-stringop-truncation -Wno-zero-length-bounds -Wno-array-bounds -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned  -DMODULE  -DKBUILD_BASENAME='"2022E8013282034"' -DKBUILD_MODNAME='"2022E8013282034"' -c -o /home/haoranx98/code/my_kernel_module/2022E8013282034.o /home/haoranx98/code/my_kernel_module/2022E8013282034.c
+cmd_/home/haoranx98/code/expriment_3/my_kernel_thread/2022E8013282034.o := gcc -Wp,-MMD,/home/haoranx98/code/expriment_3/my_kernel_thread/.2022E8013282034.o.d -nostdinc -isystem /usr/lib/gcc/x86_64-linux-gnu/10.3.1/include -I./arch/x86/include -I./arch/x86/include/generated  -I./include -I./arch/x86/include/uapi -I./arch/x86/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -std=gnu89 -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -fcf-protection=none -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -mtune=generic -mno-red-zone -mcmodel=kernel -Wno-sign-compare -fno-asynchronous-unwind-tables -mindirect-branch=thunk-extern -mindirect-branch-register -mfunction-return=thunk-extern -fno-jump-tables -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wimplicit-fallthrough -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-stack-clash-protection -g -gdwarf-4 -pg -mrecord-mcount -mfentry -DCC_USING_FENTRY -fno-inline-functions-called-once -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wno-stringop-truncation -Wno-zero-length-bounds -Wno-array-bounds -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned  -DMODULE  -DKBUILD_BASENAME='"2022E8013282034"' -DKBUILD_MODNAME='"2022E8013282034"' -c -o /home/haoranx98/code/expriment_3/my_kernel_thread/2022E8013282034.o /home/haoranx98/code/expriment_3/my_kernel_thread/2022E8013282034.c
 
-source_/home/haoranx98/code/my_kernel_module/2022E8013282034.o := /home/haoranx98/code/my_kernel_module/2022E8013282034.c
+source_/home/haoranx98/code/expriment_3/my_kernel_thread/2022E8013282034.o := /home/haoranx98/code/expriment_3/my_kernel_thread/2022E8013282034.c
 
-deps_/home/haoranx98/code/my_kernel_module/2022E8013282034.o := \
+deps_/home/haoranx98/code/expriment_3/my_kernel_thread/2022E8013282034.o := \
   include/linux/kconfig.h \
     $(wildcard include/config/cc/version/text.h) \
     $(wildcard include/config/cpu/big/endian.h) \
@@ -673,7 +673,131 @@ deps_/home/haoranx98/code/my_kernel_module/2022E8013282034.o := \
     $(wildcard include/config/modules/use/elf/rel.h) \
     $(wildcard include/config/modules/use/elf/rela.h) \
   arch/x86/include/asm/orc_types.h \
+  include/linux/kthread.h \
+    $(wildcard include/config/blk/cgroup.h) \
+  include/linux/sched.h \
+    $(wildcard include/config/virt/cpu/accounting/native.h) \
+    $(wildcard include/config/sched/info.h) \
+    $(wildcard include/config/schedstats.h) \
+    $(wildcard include/config/qos/sched/smt/expeller.h) \
+    $(wildcard include/config/fair/group/sched.h) \
+    $(wildcard include/config/rt/group/sched.h) \
+    $(wildcard include/config/rt/mutexes.h) \
+    $(wildcard include/config/uclamp/task.h) \
+    $(wildcard include/config/uclamp/buckets/count.h) \
+    $(wildcard include/config/cgroup/sched.h) \
+    $(wildcard include/config/blk/dev/io/trace.h) \
+    $(wildcard include/config/psi.h) \
+    $(wildcard include/config/compat/brk.h) \
+    $(wildcard include/config/cgroups.h) \
+    $(wildcard include/config/arch/has/scaled/cputime.h) \
+    $(wildcard include/config/virt/cpu/accounting/gen.h) \
+    $(wildcard include/config/posix/cputimers.h) \
+    $(wildcard include/config/posix/cpu/timers/task/work.h) \
+    $(wildcard include/config/keys.h) \
+    $(wildcard include/config/sysvipc.h) \
+    $(wildcard include/config/detect/hung/task.h) \
+    $(wildcard include/config/io/uring.h) \
+    $(wildcard include/config/audit.h) \
+    $(wildcard include/config/auditsyscall.h) \
+    $(wildcard include/config/ubsan.h) \
+    $(wildcard include/config/ubsan/trap.h) \
+    $(wildcard include/config/block.h) \
+    $(wildcard include/config/task/xacct.h) \
+    $(wildcard include/config/cpusets.h) \
+    $(wildcard include/config/resctrl.h) \
+    $(wildcard include/config/x86/cpu/resctrl.h) \
+    $(wildcard include/config/futex.h) \
+    $(wildcard include/config/perf/events.h) \
+    $(wildcard include/config/rseq.h) \
+    $(wildcard include/config/task/delay/acct.h) \
+    $(wildcard include/config/fault/injection.h) \
+    $(wildcard include/config/latencytop.h) \
+    $(wildcard include/config/kunit.h) \
+    $(wildcard include/config/function/graph/tracer.h) \
+    $(wildcard include/config/bcache.h) \
+    $(wildcard include/config/vmap/stack.h) \
+    $(wildcard include/config/security.h) \
+    $(wildcard include/config/bpf/syscall.h) \
+    $(wildcard include/config/gcc/plugin/stackleak.h) \
+    $(wildcard include/config/x86/mce.h) \
+    $(wildcard include/config/sched/core.h) \
+    $(wildcard include/config/bpf/sched.h) \
+    $(wildcard include/config/arch/task/struct/on/stack.h) \
+    $(wildcard include/config/debug/rseq.h) \
+    $(wildcard include/config/qos/sched.h) \
+  include/uapi/linux/sched.h \
+  include/linux/pid.h \
+  include/linux/rculist.h \
+    $(wildcard include/config/prove/rcu/list.h) \
+  include/linux/sem.h \
+  include/uapi/linux/sem.h \
+  include/linux/ipc.h \
+  include/linux/rhashtable-types.h \
+  include/uapi/linux/ipc.h \
+  arch/x86/include/generated/uapi/asm/ipcbuf.h \
+  include/uapi/asm-generic/ipcbuf.h \
+  arch/x86/include/uapi/asm/sembuf.h \
+  include/linux/shm.h \
+  include/uapi/linux/shm.h \
+  include/uapi/asm-generic/hugetlb_encode.h \
+  arch/x86/include/uapi/asm/shmbuf.h \
+  include/uapi/asm-generic/shmbuf.h \
+  arch/x86/include/asm/shmparam.h \
+  include/linux/kcov.h \
+  include/uapi/linux/kcov.h \
+  include/linux/plist.h \
+    $(wildcard include/config/debug/plist.h) \
+  include/linux/hrtimer.h \
+    $(wildcard include/config/high/res/timers.h) \
+    $(wildcard include/config/time/low/res.h) \
+    $(wildcard include/config/timerfd.h) \
+  include/linux/hrtimer_defs.h \
+  include/linux/timerqueue.h \
+  include/linux/seccomp.h \
+    $(wildcard include/config/seccomp.h) \
+    $(wildcard include/config/have/arch/seccomp/filter.h) \
+    $(wildcard include/config/seccomp/filter.h) \
+    $(wildcard include/config/checkpoint/restore.h) \
+    $(wildcard include/config/seccomp/cache/debug.h) \
+  include/uapi/linux/seccomp.h \
+  arch/x86/include/asm/seccomp.h \
+  arch/x86/include/asm/unistd.h \
+  arch/x86/include/uapi/asm/unistd.h \
+  arch/x86/include/generated/uapi/asm/unistd_64.h \
+  arch/x86/include/generated/asm/unistd_64_x32.h \
+  arch/x86/include/generated/asm/unistd_32_ia32.h \
+  arch/x86/include/asm/ia32_unistd.h \
+  include/asm-generic/seccomp.h \
+  include/uapi/linux/unistd.h \
+  include/linux/resource.h \
+  include/uapi/linux/resource.h \
+  arch/x86/include/generated/uapi/asm/resource.h \
+  include/asm-generic/resource.h \
+  include/uapi/asm-generic/resource.h \
+  include/linux/latencytop.h \
+  include/linux/sched/prio.h \
+  include/linux/sched/types.h \
+  include/linux/signal_types.h \
+    $(wildcard include/config/old/sigaction.h) \
+  include/uapi/linux/signal.h \
+  arch/x86/include/asm/signal.h \
+  arch/x86/include/uapi/asm/signal.h \
+  include/uapi/asm-generic/signal-defs.h \
+  arch/x86/include/uapi/asm/siginfo.h \
+  include/uapi/asm-generic/siginfo.h \
+  include/linux/task_io_accounting.h \
+    $(wildcard include/config/task/io/accounting.h) \
+  include/linux/posix-timers.h \
+  include/linux/alarmtimer.h \
+    $(wildcard include/config/rtc/class.h) \
+  include/linux/task_work.h \
+  include/uapi/linux/rseq.h \
+  include/linux/kcsan.h \
+  include/linux/delay.h \
+  arch/x86/include/asm/delay.h \
+  include/asm-generic/delay.h \
 
-/home/haoranx98/code/my_kernel_module/2022E8013282034.o: $(deps_/home/haoranx98/code/my_kernel_module/2022E8013282034.o)
+/home/haoranx98/code/expriment_3/my_kernel_thread/2022E8013282034.o: $(deps_/home/haoranx98/code/expriment_3/my_kernel_thread/2022E8013282034.o)
 
-$(deps_/home/haoranx98/code/my_kernel_module/2022E8013282034.o):
+$(deps_/home/haoranx98/code/expriment_3/my_kernel_thread/2022E8013282034.o):
